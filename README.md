@@ -9,15 +9,25 @@
 
 ---
 
-## 📸 Dashboard & Interface
+## 📸 Platform Overview
 
 > **Note for setup:** *Drag and drop your screenshot images directly into the GitHub editor to upload them, then replace the placeholder links below.*
 
-![Security Overview Dashboard](LINK_CATRE_SCREENSHOT_DASHBOARD_AICI)
-*The main dashboard providing a real-time security score and KPIs.*
+### Security Dashboard
+![Security Overview Dashboard](LINK_CATRE_POZA_DASHBOARD_AICI)
+*Real-time security score, KPIs, and detailed finding evaluations.*
 
-![Hardening Center](LINK_CATRE_SCREENSHOT_HARDENING_AICI)
-*The Hardening Center automating script-driven remediations.*
+### Hardening Center
+![Hardening Center](LINK_CATRE_POZA_HARDENING_AICI)
+*Automated, single-click script-driven remediations for detected vulnerabilities.*
+
+### Scan History & Telemetry
+![Scan History](LINK_CATRE_POZA_HISTORY_AICI)
+*Local persistence via SQLite, tracking posture evolution and compliance trendlines over time.*
+
+### HTML Posture Reports
+![Export Report](LINK_CATRE_POZA_REPORT_AICI)
+*Offline-ready, exportable security posture reports detailing passed controls and critical failures.*
 
 ---
 
@@ -27,9 +37,8 @@ The platform is engineered to interact directly with underlying Windows subsyste
 
 * **Asynchronous Auditing Engine:** Runs security checks on background threads to prevent UI blocking, aggregating data from the registry, WMI, and local security policies.
 * **Embedded PowerShell Integration:** Utilizes a dedicated `IPowerShellEngine` to dynamically execute automation scripts for both scanning and remediation.
-* **Automated Mitigation (Hardening Center):** Maps detected vulnerabilities to actionable fixes, allowing administrators to patch configurations (e.g., blocking vulnerable ports, enforcing UAC) with a single click.
-* **Historical Telemetry:** Persists scan history and configuration drift over time using an embedded SQLite database, visualizing posture evolution through trendlines.
-* **HTML Reporting:** Generates exportable, offline-ready security posture reports.
+* **Automated Mitigation:** Maps detected vulnerabilities to actionable fixes, allowing administrators to patch configurations (e.g., blocking vulnerable ports, enforcing UAC) with a single click.
+* **Historical Telemetry:** Persists scan history and configuration drift over time using an embedded SQLite database.
 
 ## 🛡️ Security Modules Evaluated
 
