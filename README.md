@@ -9,29 +9,33 @@
 
 ---
 
-## 📸 Platform Overview
+##  Platform Overview
 
 > **Note for setup:** *Drag and drop your screenshot images directly into the GitHub editor to upload them, then replace the placeholder links below.*
 
 ### Security Dashboard
-![Security Overview Dashboard](LINK_CATRE_POZA_DASHBOARD_AICI)
+<img width="1900" height="976" alt="image" src="https://github.com/user-attachments/assets/44247c93-9a7f-4f17-8b62-4fa89e383462" />
+
 *Real-time security score, KPIs, and detailed finding evaluations.*
 
-### Hardening Center
-![Hardening Center](LINK_CATRE_POZA_HARDENING_AICI)
-*Automated, single-click script-driven remediations for detected vulnerabilities.*
-
 ### Scan History & Telemetry
-![Scan History](LINK_CATRE_POZA_HISTORY_AICI)
+<img width="1906" height="967" alt="image" src="https://github.com/user-attachments/assets/8dbbfe51-e3a0-48b1-a92c-4d3f385cb722" />
+
 *Local persistence via SQLite, tracking posture evolution and compliance trendlines over time.*
 
+### Hardening Center
+<img width="1901" height="973" alt="image" src="https://github.com/user-attachments/assets/ca852897-ef9a-4609-a683-212181bb63f7" />
+
+*Automated, single-click script-driven remediations for detected vulnerabilities.*
+
 ### HTML Posture Reports
-![Export Report](LINK_CATRE_POZA_REPORT_AICI)
+<img width="1837" height="894" alt="image" src="https://github.com/user-attachments/assets/b327fc20-bf74-4bd6-a28a-53b518cffd48" />
+
 *Offline-ready, exportable security posture reports detailing passed controls and critical failures.*
 
 ---
 
-## 🏗️ Core Architecture & Features
+##  Core Architecture & Features
 
 The platform is engineered to interact directly with underlying Windows subsystems without relying on external bloatware. 
 
@@ -50,7 +54,7 @@ The auditing engine evaluates multiple critical vectors of the Windows OS:
 4. **Boot Integrity:** Checks for Secure Boot validation and BitLocker drive encryption status.
 5. **Execution Policies:** Analyzes PowerShell execution restrictions and SmartScreen enforcement.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 * Windows 10 or Windows 11
