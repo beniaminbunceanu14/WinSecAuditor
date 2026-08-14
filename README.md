@@ -11,7 +11,7 @@
 
 ##  Platform Overview
 
-> **Note for setup:** *Drag and drop your screenshot images directly into the GitHub editor to upload them, then replace the placeholder links below.*
+
 
 ### Security Dashboard
 <img width="1900" height="976" alt="image" src="https://github.com/user-attachments/assets/44247c93-9a7f-4f17-8b62-4fa89e383462" />
